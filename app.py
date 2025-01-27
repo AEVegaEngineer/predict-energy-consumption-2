@@ -18,7 +18,7 @@ app.title = "Dashboard energia"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
-# Cambio 2
+# Cambio 3 Ariana
 def load_data():
     df = pd.read_csv('datos_energia.csv')
     df['time'] = pd.to_datetime(df['time'])
